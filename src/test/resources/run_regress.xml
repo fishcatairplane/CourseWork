@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All tests">
+    <test name="API Regress">
+        <classes>
+            <class name="API.tests.CreateUser"/>
+            <class name="API.tests.RemoveUser"/>
+            <class name="API.tests.CreateProject"/>
+            <class name="API.tests.RemoveProject"/>
+            <class name="API.tests.CreateTask"/>
+            <class name="API.tests.RemoveTask"/>
+        </classes>
+    </test>
+    <test name="UI testing">
+        <classes>
+            <class name="UItests.tests.TaskTests"/>
+            <class name="UItests.tests.CreateTask"/>
+            <class name="UItests.tests.CreateProject"/>
+            <class name="UItests.tests.LoginTests"/>
+            <class name="UItests.tests.CreateUser"/>
+        </classes>
+    </test>
+</suite>
