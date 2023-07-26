@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API tests">
+
+    <test name="API Regress">
+        <classes>
+
+            <class name="API.tests.CreateUser"/>
+            <class name="API.tests.RemoveUser"/>
+            <class name="API.tests.CreateProject"/>
+            <class name="API.tests.RemoveProject"/>
+            <class name="API.tests.CreateTask"/>
+            <class name="API.tests.RemoveTask"/>
+
+        </classes>
+
+    </test>
+</suite>

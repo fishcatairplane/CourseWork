@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Project tests">
+
+    <test name="Project test">
+        <classes>
+            <class name="UItests.tests.CreateProject"/>
+        </classes>
+    </test>
+</suite>
